@@ -9,6 +9,10 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+//Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -19,7 +23,8 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  //font: 18px/1.4 $helvetica;
+	font: 18px/1.4 'Montserrat';
   color: $darkGray;
 }
 
@@ -31,7 +36,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  //font-family: $helveticaNeue;
+  font-family: 'Open Sans';
   color: $darkerGray;
   font-weight: bold;
 
