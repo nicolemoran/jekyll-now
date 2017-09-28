@@ -24,7 +24,7 @@ html {
 body {
 	background: $white;
   //font: 18px/1.4 $helvetica;
-	font: 18px/1.4 'Montserrat';
+	font: 18px/1.4 $Montserrat;
   color: $darkGray;
 }
 
@@ -37,7 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   //font-family: $helveticaNeue;
-  font-family: 'Open Sans';
+  font-family: $'Open Sans';
   color: $darkerGray;
   font-weight: bold;
 
